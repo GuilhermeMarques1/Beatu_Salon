@@ -40,6 +40,10 @@ a {
   color: var(--green-200);
 }
 
+ul {
+  list-style: none;
+}
+
 img {
   width: 100%;
   height: auto;
@@ -52,7 +56,7 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
-h1, h2 {
+h1, h2, .title {
   font: 700 1.875rem 'Poppins', sans-serif;
   color: var(--black);
   -webkit-font-smoothing: auto;
@@ -74,16 +78,59 @@ h1, h2 {
 
 #header {
   border-bottom: 1px solid #e4e4e4;
-  margin-bottom: 1rem;
   display: flex;
 }
+
+main {
+  margin-top: 2rem;
+}
+
+.grid {
+  display: grid;
+  gap: 2rem;
+}
+
+/* ======== NAVIGATION MENU  ======== */
 
 nav {
   height: 4.5rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  z-index: 1;
 }
+
+nav ul li {
+  text-align: center;
+}
+
+nav .menu {
+  opacity: 0;
+  visibility: hidden;
+}
+
+nav.show .menu {
+  opacity: 1;
+  visibility: visible;
+  background: var(--white);
+  height: 100vh;
+  width: 100vw;
+
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+nav.show .menu {
+  display: grid;
+  place-content: center;
+}
+
+nav.show ul.grid {
+  gap: 4rem;
+}
+
+/* =============================== */
 
 .logo {
   font: 700 1.31rem 'Poppins', sans-serif;
@@ -92,11 +139,6 @@ nav {
 
 .logo span {
   color: var(--green-100);
-}
-
-.grid {
-  display: grid;
-  gap: 2rem;
 }
 
 .section {
@@ -151,3 +193,5 @@ nav {
 .schedule-button a{
   color: var(--white-100);
 }
+
+/* SECTION SOBRE */
