@@ -104,6 +104,32 @@ nav ul li {
   text-align: center;
 }
 
+nav ul li a {
+  transition: color 0.2s;
+  position: relative;
+}
+
+nav ul li a:hover {
+  color: var(--green-80);
+}
+
+nav ul li a::after {
+  content: "";
+  width: 0%;
+  height: 2px;
+  background: var(--green-80);
+
+  position: absolute;
+  left: 0;
+  bottom: -1.4rem;
+
+  transition: width 0.3s;
+}
+
+nav ul li a:hover::after {
+  width: 100%;
+}
+
 nav .menu {
   opacity: 0;
   visibility: hidden;
