@@ -68,11 +68,20 @@ h1, h2, .title {
 }
 
 .divider1 {
-  height: 1px;
+  height: 1.2px;
   background: linear-gradient(
     270deg, 
-    var(--green-100) 0%,
-    rgba(204, 244, 230, 0.34) 100%
+    var(--green-100),
+    rgba(204, 244, 230, 0.34)
+  );
+}
+
+.divider2 {
+  height: 1.2px;
+  background: linear-gradient(
+    270deg, 
+    rgba(204, 244, 230, 0.34),
+    var(--green-100)
   );
 }
 
