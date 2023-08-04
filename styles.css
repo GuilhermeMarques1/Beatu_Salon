@@ -49,6 +49,10 @@ img {
   height: auto;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background-color: var(--white-100);
   color: var(--gray-100);
