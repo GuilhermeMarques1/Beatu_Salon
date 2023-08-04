@@ -241,4 +241,43 @@ nav.show .icon-close {
   color: var(--white-100);
 }
 
-/* SECTION SOBRE */
+/* SECTION ABOUT  */
+#about {
+  background: var(--white);
+}
+
+#about .container {
+  margin: 0;
+}
+
+#about .image {
+  position: relative;
+}
+
+#about .image::before {
+  content: "";
+  height: 100%;
+  width: 100%;
+  background-color: var(--green-50);
+  position: absolute;
+  top: -8.3%;
+  left: -33%;
+}
+
+#about .image img{
+  position: relative;
+  /* right: 2.93rem; */
+}
+
+#about .image img,
+#about .image::before {
+  border-radius: 0.25rem;
+}
+
+#about .text {
+  margin: 0 1.5rem;
+}
+
+#about .text h2 {
+  margin-bottom: 1rem;
+}
