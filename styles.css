@@ -400,9 +400,14 @@ nav.show .icon-close {
 }
 
 /* swiper */
+.swiper {
+  z-index: 0;
+}
+
 .swiper-slide {
   height: auto;
   padding: 4rem 1rem;
+  z-index: 0;
 }
 
 .swiper-pagination-bullet-active {
