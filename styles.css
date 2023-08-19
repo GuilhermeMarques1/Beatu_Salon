@@ -501,3 +501,19 @@ footer .social a {
 }
 
 /* ============================ */
+
+/* ======== BACK TO TOP  ======== */
+.back-to-top {
+  background-color: var(--green-100);
+  color: var(--white-100);
+
+  position: fixed;
+  right: 1rem;
+  bottom: 1rem;
+
+  padding: 0.5rem;
+  clip-path: circle();
+  font-size: 1.5rem;
+}
+
+/* ============================ */
