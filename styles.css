@@ -535,3 +535,16 @@ footer .social a:hover {
 }
 
 /* ============================ */
+
+/* ======== RESPONSIVITY  ======== */
+/* extra large devices: 1200 > */
+/* large devices: 1023 > */
+/* large devices: 992 > */
+/* medium devices: 767 >  (tablets); para baixo são celulares */ 
+
+@media (min-width: 992px) { /*vai pegar dispositivos a partir de 992px*/
+  
+}
+
+
+/* ============================ */
