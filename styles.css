@@ -481,4 +481,23 @@ footer {
 }
 
 
+footer .brand .logo-alt {
+  display: inline-block;
+  margin-bottom: 1.5rem;
+}
+
+footer .brand p {
+  color: var(--white-100);
+  margin-bottom: 0.75rem;
+}
+
+footer .social i {
+  font-size: 1.5rem;
+  color: var(--white-100);
+}
+
+footer .social a {
+  margin-right: 2rem;
+}
+
 /* ============================ */
