@@ -462,3 +462,23 @@ nav.show .icon-close {
 #contact ul li i {
   color: var(--green-80);
 }
+
+
+/* ============================ */
+
+/* ======== FOOTER  ======== */
+footer {
+  background: var(--green-100);
+}
+
+.logo-alt {
+  font: 700 1.31rem 'Poppins', sans-serif;
+  color: var(--green-200);
+}
+
+.logo-alt span {
+  color: var(--white-100);
+}
+
+
+/* ============================ */
