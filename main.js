@@ -53,7 +53,8 @@ scrollReveal.reveal(`
   #about .image, #about .text,
   #services header, #services .card,
   #testimonials header, #testimonials .testimonials,
-  #contact header, #contact .links  
+  #contact header, #contact .links,
+  footer .brand, footer .social
   `, { interval: 100 }
 );
 
